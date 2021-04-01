@@ -1,0 +1,140 @@
+body{
+    width: 750px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    padding-right: 0;
+    width:auto;
+    height: max-content;
+    padding-bottom: 40px;
+}
+.a-apropos h3{
+    padding-left: 0;
+    margin-left: 30px;
+}
+.a-apropos a {
+    padding-left: 0;
+    margin-left: 30px; 
+}
+.assitance a {
+    padding-left: 0;
+    margin-left:  30px;
+}
+.assitance h3{
+    padding-left: 0;
+    margin-left: 30px;
+}
+.nos-hebergement a{
+    padding-left: 0;
+    margin-left:  30px;  
+}
+.nos-hebergement h3{
+    padding-left: 0;
+    margin-left:  30px;
+}
+
+.container-actv{
+  display: block;
+ 
+}
+.cotainer-actv2{
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+#vieux-port img{
+    height: 200px;
+}
+#Parc-National-des-calanques img{
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#fort-de-pomegues img{
+    height: 200px;
+    margin-top: 20px;
+}
+#iles-du-frioul img{
+    height: 200px;
+    margin-top:20px ;
+}
+#notre-dame-de-la-garde img{
+    margin-top: 20px;
+}
+#parc-longchamp img{
+    margin-top: 20px;
+}
+
+.col1{
+    display: flex;
+    flex-direction: column;
+   
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+}
+#milieu{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hebergement{
+    width: 100%;
+    margin-left: 0;
+    background-color: white;
+    padding-left: 0;
+}
+#hotel-6{
+    margin-bottom: 20px;
+}
+#hotel-1{
+   width: 100%;
+   height: 210px;
+   margin-bottom: 20px;
+}
+
+#hotel-2{
+    margin-bottom: 20px;
+     
+}
+#hotel-3{
+    margin-bottom: 20px;
+}
+#hotel-4{
+    margin-bottom: 20px;
+}
+#hotel-5{
+ margin-bottom: 20px;   
+}
+.populaire{
+    margin-bottom: 0;
+    border-radius: 0;
+
+}
+.filtres{
+    display: flex;
+    flex-wrap:wrap;
+    height: max-content;
+ 
+   
+}
+.filtres h4{
+    width: 100%;
+margin-right: 100%;
+  
+}
+.eco{
+  margin-bottom: 10px;
+}
+.familial{
+    margin-bottom: 10px;
+
+}

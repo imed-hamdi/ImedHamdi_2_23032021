@@ -1,0 +1,959 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+body{
+   
+    margin-top: 30px;
+    font-family: "Raleway";
+}
+
+
+
+
+
+.nav{
+display: flex;
+justify-content:space-between;
+font-weight: bold;
+width: 50%;
+margin-left: auto;
+
+margin-right: 30px;
+ 
+}
+.nav :hover{
+    color:#0065FC;
+    text-decoration: overline;
+   
+}
+#inscrire{
+    color: #0065FC;
+}
+
+
+
+
+
+
+.slogan{
+    margin-top: 40px;
+ line-height: 5px;
+ height: 80px;
+ margin-left: 30px;
+ margin-right: 30px;
+
+}
+.log img{
+    width: 90px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+
+
+
+.maps{
+
+ width: 440px;
+ height: 50px;
+ display: flex;
+justify-content: center;
+margin-bottom: 20px;
+margin-left: 30px;
+margin-right: 30px;
+ }
+
+
+ .gps{
+    background-color: #F2F2F2;
+    width: 30px;
+    height: 40px;
+    padding-top: 12px;
+   padding-left: 20px;
+    border-radius: 15px 0  0 15px;
+}
+
+
+
+.maps input{
+    width: 230px;
+    height: 47px;
+    padding-left: 20px;
+    font-weight:bold;
+    font-size: 16px;
+    font-family: "Raleway";
+    border: 1px solid #F2F2F2;
+}
+
+
+
+
+button{
+background-color: #0065FC;
+color: white;
+height: 50px;
+width: 120px;
+font-weight: bolder;
+font-size: 16px;
+border-radius:0 15px 15px 0;
+border: transparent;
+font-family: "Raleway";
+}
+
+
+
+
+
+
+
+.filtres i{
+margin-right: 15px;
+background-color: #DEEBFF;
+width: 45px;
+height: 45px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.filtres{
+    display: flex;
+    width: 60%;
+    height: 90px;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    margin-bottom: 10px;
+    transform: scale(1);
+    
+}
+.eco{
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #bdbfc4;
+    border-radius:31px 31px 31px 31px;
+    padding:  0 10px  0  0 ;
+   
+}
+.filtres :hover{
+    color: brown;
+    transform: scale(1.1);
+}
+
+.familial{
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #bdbfc4;
+    border-radius:30px 30px 30px 30px;
+    padding:  0 10px  0  0 ;
+   
+}
+
+.romantique{
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #bdbfc4;
+    border-radius:30px 30px 30px 30px;
+    padding:  0 10px  0  0 ;
+     
+}
+
+.animaux{
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #bdbfc4;
+    border-radius:30px 30px 30px 30px;
+    padding:  0 10px  0  0 ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+    width: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.info i{
+    font-size:small ;
+    border: 1px solid gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info p{
+margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i{
+    color: #0065FC;
+}
+.gray{
+    color: rgb(228, 226, 226);
+}
+
+
+
+
+#hotel-1{
+    width: 245px;
+    height: 210px;
+    border:3px solid white;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+}
+#hotel-1 img {
+    border-radius: 20px 20px 0 0 ;
+    width:245px;
+    height:120px;
+    object-fit:cover;
+}
+a{
+  text-decoration: none;
+   color: black;
+}
+.overlay1{
+position: absolute;
+bottom: 0;        
+background-color:white;	
+width:230px;				
+color: black;
+height: 90px;
+line-height:3px;
+border-radius:0 0 20px 20px;
+padding-left:15px;
+box-shadow:5px 5px 5px #F2F2F2;
+
+}
+
+
+#hotel-2{
+    width: 245px;
+    height: 210px;
+    border:3px solid white;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+   
+    position: relative;
+}
+#hotel-2 img {
+    border-radius: 20px 20px 0 0 ;
+    width:245px;
+    height:120px;
+    object-fit:cover;
+}
+
+.overlay2{
+    position: absolute;
+    bottom: 0;        
+    background-color: white;		
+    width:230px;				
+    color: black;
+    height: 90px;
+    line-height:3px;
+    border-radius:0 0 20px 20px;
+    padding-left:15px;
+    box-shadow:5px 5px 5px #F2F2F2;
+
+}
+
+
+
+
+#hotel-3{
+    width: 245px;
+    height: 210px;
+    border:3px solid white;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+}
+#hotel-3 img {
+    border-radius: 20px 20px 0 0 ;
+    width:245px;
+    height:120px;
+    object-fit:cover;
+}
+
+.overlay3{
+    position: absolute;
+    bottom: 0;        
+    background-color:white;		
+    width:230px;				
+    color: black;
+    height: 90px;
+    line-height:3px;
+    border-radius:0 0 20px 20px;
+    padding-left:15px;
+    box-shadow:5px 5px 5px #F2F2F2;
+}
+
+
+
+
+#hotel-4{
+    width: 245px;
+    height: 210px;
+    border:3px solid white;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+   
+    position: relative;
+}
+#hotel-4 img {
+    border-radius: 20px 20px 0 0 ;
+    width:245px;
+    height:120px;
+    object-fit:cover;
+}
+
+.overlay4{
+    position: absolute;
+    bottom: 0;        
+    background-color: white;		
+    width:230px;				
+    color: black;
+    height: 90px;
+    line-height:3px;
+    border-radius:0 0 20px 20px;
+    padding-left:15px;
+    box-shadow:5px 5px 5px #F2F2F2;
+
+}
+
+
+
+
+#hotel-5{
+    width: 245px;
+    height: 210px;
+    border:3px solid white;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+   
+    position: relative;
+}
+#hotel-5 img {
+    border-radius: 20px 20px 0 0 ;
+    width:245px;
+    height:120px;
+    object-fit:cover;
+}
+
+.overlay5{
+    position: absolute;
+    bottom: 0;        
+    background-color:white;		
+    width:230px;				
+    color: black;
+    height: 90px;
+    line-height:3px;
+    border-radius:0 0 20px 20px;
+    padding-left:15px;
+    box-shadow:5px 5px 5px #F2F2F2;
+}
+
+
+
+#hotel-6{
+    width: 245px;
+    height: 210px;
+    border:3px solid white;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+   
+    position: relative;
+}
+#hotel-6 img {
+    border-radius: 20px 20px 0 0 ;
+    width:245px;
+    height:120px;
+    object-fit:cover;
+}
+
+.overlay6{
+    position: absolute;
+    bottom: 0;        
+    background-color:white;		
+    width:230px;				
+    color: black;
+    height: 90px;
+    line-height:3px;
+    border-radius:0 0 20px 20px;
+    padding-left:15px;
+    box-shadow:5px 5px 5px #F2F2F2;
+
+}
+.col1{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.col2{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.hebergement{ 
+    font-family: "Raleway";
+  
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #F2F2F2 ;
+  
+}
+#milieu{
+    display: flex;
+    justify-content:space-between;
+    height: 100%;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.hebergement h3{
+  margin-top: 40px;
+    width: 50%;
+    margin-left: 20px;
+}
+#suite{
+width: 50%;
+ font-weight: bold;
+ font-size: 18px;
+ margin-left: 20px;
+ margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.populaire{
+    width: 350px;
+    height: 620px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#title{
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    align-items: center;
+    height: 40px;
+  padding-top: 0;
+}
+#title i{
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+}
+
+#hotel-pop1{
+    width: 340px;
+    height: 140px;
+    border:3px solid white;
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    position: relative; 
+}
+.overlay-pop1{
+    position: absolute;
+    right: 0; 
+    height: 135px;       
+    background-color:white;		
+    width: 55%;				
+    color: black;
+    border-radius: 0 20px 20px 0;
+    border: 3px solid white;
+    padding-left: 20px;
+}
+#hotel-pop1 img{  
+   border-radius: 20px 0 0 20px ;
+   width:40%;
+   height:140px;
+   object-fit:cover; 
+}
+
+#hotel-pop2{
+    width: 340px;
+    height: 140px;
+    border:3px solid white;
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    position: relative; 
+}
+.overlay-pop2{
+    position: absolute;
+    right: 0; 
+    height: 135px;       
+    background-color:white;		
+    width: 55%;				
+    color: black;
+    border-radius: 0 20px 20px 0;
+    border: 3px solid white;
+    padding-left: 20px;
+}
+#hotel-pop2 img{ 
+   border-radius: 20px 0 0 20px ;
+   width:40%;
+   height:140px;
+   object-fit:cover; 
+}
+
+#hotel-pop3{
+    width: 340px;
+    height: 140px;
+    border:3px solid white;
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    position: relative; 
+}
+.overlay-pop3{
+    position: absolute;
+    right: 0; 
+    height: 135px;       
+    background-color:white;		
+    width: 55%;				
+    color: black;
+    border-radius: 0 20px 20px 0;
+    border: 3px solid white;
+    padding-left: 20px;
+}
+#hotel-pop3 img{
+   border-radius: 20px 0 0 20px ;
+   width:40%;
+   height:140px;
+   object-fit:cover; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.activity{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+
+
+#vieux-port{
+     width: 23%;
+    height: 440px;
+    position: relative;
+}
+#vieux-port img{
+    object-fit:cover;
+    width: 300px;
+    height: 400px; 
+    border-radius: 20px 20px 20px 20px;
+}
+.overlay-vieux-port{
+    position: absolute;
+    bottom: 0;         
+    background-color:white;		
+    width: 280px;				
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    padding-left: 20px;
+    box-shadow:5px 5px 5px #F2F2F2;
+}
+.container-actv{
+    display: flex;
+    justify-content: space-between;
+}
+.cotainer-actv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:23% ;
+    height: 440px;
+}
+.cotainer-actv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+    height: 440px;
+}
+#Parc-National-des-calanques{
+    width: 23%;
+   height: 440px;
+   position: relative;
+}
+#Parc-National-des-calanques img{
+    object-fit:cover;
+    width: 300px;
+    height: 400px; 
+    border-radius: 20px 20px 20px 20px;
+}
+.overlay-parc-calanques{
+   position: absolute;
+   bottom: 0;         
+   background-color:white;		
+   width: 280px;				
+   color: black;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   border-radius: 0 0 20px 20px;
+   padding-left: 20px;
+   box-shadow:5px 5px 5px #F2F2F2;
+}
+#fort-de-pomegues{
+    width: 100%;
+    position: relative;
+}
+
+#fort-de-pomegues img{
+    object-fit:cover;
+    width: 300px;
+    height: 250px; 
+    border-radius: 20px 20px 20px 20px;
+}
+.overlay-fortdepomegues{
+    position: absolute;
+    bottom: 0;         
+    background-color:white;		
+    width: 280px;				
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    padding-left: 20px;
+    box-shadow:5px 5px 5px #F2F2F2;
+}
+#iles-du-frioul{
+    width: 100%;
+    position: relative;
+}
+#iles-du-frioul img{
+    object-fit:cover;
+    width: 300px;
+    height: 140px; 
+    border-radius: 20px 20px 20px 20px;
+}
+.overlay-frioul{
+    position: absolute;
+    bottom: 0;         
+    background-color:white;		
+    width: 280px;				
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    padding-left: 20px;
+    box-shadow:5px 5px 5px #F2F2F2;
+}
+#notre-dame-de-la-garde{
+    width: 100%;
+    position: relative;
+}
+#notre-dame-de-la-garde img{
+    object-fit:cover;
+    width: 300px;
+    height: 200px; 
+    border-radius: 20px 20px 20px 20px;
+}
+.overlay-notre-dame-de-la-garde{
+    position: absolute;
+    bottom: 0;         
+    background-color:white;		
+    width: 280px;				
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    padding-left: 20px;
+    box-shadow:5px 5px 5px #F2F2F2;
+}
+#parc-longchamp{
+    width: 100%;
+    position: relative;
+}
+
+#parc-longchamp img{
+    object-fit:cover;
+    width: 300px;
+    height: 200px; 
+    border-radius: 20px 20px 20px 20px;
+}
+.overlay-parc-longchamps{
+    position: absolute;
+    bottom: 0;         
+    background-color:white;		
+    width: 280px;				
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    padding-left: 20px;
+    box-shadow:5px 5px 5px #F2F2F2;
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+
+
+footer{
+    font-family: 'Raleway', sans-serif;
+    background-color: #F2F2F2;
+    height: 215px;
+    display: flex;
+    margin-top: 50px;
+    text-decoration: none; 
+    width: 100%;
+}
+.a-apropos a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.nos-hebergement a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding-top: 5px;
+    padding-left: 220px;
+    
+}
+.assitance a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding-top: 5px;
+    margin-left: 220px;
+    
+    
+}
+.nos-hebergement h3{
+    padding-top: 30px;
+    font-weight: bold;
+    padding-left: 220px;
+}
+.a-apropos h3{
+    padding-top: 30px;
+    font-weight: bold;
+    padding-left:50px;
+}
+.assitance h3{
+    padding-top: 30px;
+    font-weight: bold;
+    margin-left: 220px;
+}
+
+
+
