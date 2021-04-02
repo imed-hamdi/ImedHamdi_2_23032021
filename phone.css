@@ -1,11 +1,11 @@
 body{
-    width: 750px;
+    width: 450px;
 }
 footer{
     display: flex;
     flex-direction: column;
     margin-right: 0;
-    padding-right: 0;
+   padding-left: 10px;
     width:450px;
     height: 450px;
     padding-bottom: 40px;
@@ -126,6 +126,9 @@ footer{
     padding-right: 10px;
    
 }
+.hebergement h3{
+    width: 100%;
+}
 #suite{
     padding-top: 25px;
     margin-left: 0;
@@ -138,20 +141,41 @@ footer{
 
 }
 #hotel-1{
-   width: 100%;
-   height: 210px;
+   
    margin-bottom: 20px;
 }
-
+#hotel-1 img{
+    width: 350px;
+}
+.overlay1{
+    width: 335px;
+}
 #hotel-2{
-    margin-bottom: 20px;
-     
+    margin-bottom: 20px;   
+}
+#hotel-2 img{
+    width: 350px;
+}
+.overlay2{
+    width: 335px;
 }
 #hotel-3{
     margin-bottom: 20px;
 }
+#hotel-3 img{
+    width: 350px;
+}
+.overlay3{
+    width: 335px;
+}
 #hotel-4{
     margin-bottom: 20px;
+}
+#hotel-4 img{
+    width: 350px;
+}
+.overlay4{
+    width: 335px;
 }
 #hotel-5{
  margin-bottom: 20px;   
@@ -163,19 +187,21 @@ footer{
     width: 335px;
 }
 .populaire{
-    margin-bottom: 0;
-    border-radius: 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
 
 }
 .filtres{
     display: flex;
     flex-wrap:wrap;
     height: max-content;
+    width: 305px;
  
    
 }
 .filtres h4{
-    width: 100%;
+    width:50px;
 margin-right: 100%;
   
 }
@@ -184,5 +210,37 @@ margin-right: 100%;
 }
 .familial{
     margin-bottom: 10px;
+
+}
+.romantique{
+    margin-bottom: 10px;
+}
+.info{
+    height: 50px;
+    margin-top: 20px;
+    width: 400px;
+    margin-bottom: 30px;
+   
+
+  }
+  .maps{
+    width: 400px;
+  }
+.slogan{
+    width: 350px;
+    padding-top: 20px;
+padding-bottom: 40px;
+line-height: 20px;
+}
+
+.nav{
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+button{
+    width: 50px;
+
 
 }
