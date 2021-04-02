@@ -6,9 +6,11 @@ footer{
     flex-direction: column;
     margin-right: 0;
     padding-right: 0;
-    width:auto;
-    height: max-content;
+    width:450px;
+    height: 450px;
     padding-bottom: 40px;
+    margin-bottom: 0;
+
 }
 .a-apropos h3{
     padding-left: 0;
@@ -48,31 +50,59 @@ footer{
 
 
 
-
+#vieux-port{
+     width: 100vw;
+    height: 440px;
+    position: relative;
+}
 
 #vieux-port img{
     height: 200px;
+    width: 400px;
+}
+.overlay-vieux-port{
+  width: 380px;
 }
 #Parc-National-des-calanques img{
     height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 400px;
+}
+.overlay-parc-calanques{
+    width: 380px;
 }
 #fort-de-pomegues img{
     height: 200px;
     margin-top: 20px;
+    width: 400px;
+}
+.overlay-fortdepomegues{
+    width: 380px;
 }
 #iles-du-frioul img{
     height: 200px;
     margin-top:20px ;
+    width: 400px;
+}
+.overlay-frioul{
+    width: 380px;
 }
 #notre-dame-de-la-garde img{
     margin-top: 20px;
+    width: 400px;
+
+}
+.overlay-notre-dame-de-la-garde{
+    width: 380px;
 }
 #parc-longchamp img{
     margin-top: 20px;
+    width: 400px;
 }
-
+.overlay-parc-longchamps{
+    width: 380px;
+}
 .col1{
     display: flex;
     flex-direction: column;
@@ -83,17 +113,29 @@ footer{
     flex-direction: column;
 }
 #milieu{
+    width: 400px;
     display: flex;
     flex-direction: column-reverse;
+   
 }
 .hebergement{
-    width: 100%;
+    width: 370px;
     margin-left: 0;
-    background-color: white;
-    padding-left: 0;
+    background-color:#f2f2f2;
+    padding-left: 30px;
+    padding-right: 10px;
+   
 }
-#hotel-6{
-    margin-bottom: 20px;
+#suite{
+    padding-top: 25px;
+    margin-left: 0;
+}
+#hotel-6 img{
+    width: 350px;
+}
+.overlay6{
+    width: 335px;
+
 }
 #hotel-1{
    width: 100%;
@@ -113,6 +155,12 @@ footer{
 }
 #hotel-5{
  margin-bottom: 20px;   
+}
+#hotel-5 img{
+    width: 350px;
+}
+.overlay5{
+    width: 335px;
 }
 .populaire{
     margin-bottom: 0;
