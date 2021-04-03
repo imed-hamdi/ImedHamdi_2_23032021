@@ -1,6 +1,12 @@
 body{
     width: 450px;
 }
+#hr{
+    visibility: visible;
+    margin-top: 20px;
+    height: 5px;
+    background-color: rgb(145, 145, 137);
+}
 footer{
     display: flex;
     flex-direction: column;
@@ -228,8 +234,8 @@ margin-right: 100%;
   }
 .slogan{
     width: 350px;
-    padding-top: 20px;
-padding-bottom: 40px;
+    padding-top: 0;
+padding-bottom: 80px;
 line-height: 20px;
 }
 
