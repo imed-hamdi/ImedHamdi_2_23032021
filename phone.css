@@ -236,7 +236,7 @@ line-height: 20px;
 .nav{
     width: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 0;
 }
 button{
