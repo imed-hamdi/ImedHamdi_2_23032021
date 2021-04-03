@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 body{
-   
+    
     margin-top: 30px;
     font-family: "Raleway";
 }
-
-
-
-
-
+#hr{
+    visibility: hidden;
+}
 .nav{
 display: flex;
 justify-content:space-between;
@@ -27,9 +25,6 @@ margin-right: 30px;
 #inscrire{
     color: #0065FC;
 }
-
-
-
 
 
 
@@ -70,6 +65,9 @@ margin-right: 30px;
    padding-left: 20px;
     border-radius: 15px 0  0 15px;
 }
+.loupe{
+    visibility: hidden;
+}
 
 
 
@@ -103,7 +101,9 @@ font-family: "Raleway";
 
 
 
-
+.overlay.eco{
+    left: -1px;
+}
 .filtres i{
 margin-right: 15px;
 background-color: #DEEBFF;
@@ -179,48 +179,6 @@ align-items: center;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .info{
     display: flex;
     align-items: center;
@@ -243,17 +201,6 @@ align-items: center;
 .info p{
 margin-left: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -649,70 +596,6 @@ width: 50%;
    height:140px;
    object-fit:cover; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
