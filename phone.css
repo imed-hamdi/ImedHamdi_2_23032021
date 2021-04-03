@@ -240,7 +240,9 @@ line-height: 20px;
     margin-left: 0;
 }
 button{
-    width: 50px;
+    width: 65px;
+font-size:10px;
+padding-right:10px;
 
 
 }
