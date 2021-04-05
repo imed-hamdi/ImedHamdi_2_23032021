@@ -4,7 +4,7 @@ body{
     margin-top: 30px;
     font-family: "Raleway";
 }
-#hr{
+hr{
     visibility: hidden;
 }
 .nav{
@@ -811,10 +811,10 @@ footer{
 body{
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding-top: 2vw;
 }
 #hr{
-    visibility: visible;
+    visibility: hidden;
     margin-top: 20px;
     height: 2px;
     background-color: rgb(145, 145, 137);
@@ -1129,13 +1129,16 @@ width: 100%;
     display: flex;
     flex-wrap:wrap;
     height: max-content;
-    width: 90%;
+    width: 60%;
+   
  
    
 }
 .filtres h4{
-    width:100%;
-    padding: 0;
+
+    margin-left: 30px;
+    width: 100%;
+    margin-right: 100%;
 
   
 }
@@ -1151,36 +1154,48 @@ width: 100%;
 }
 .info{
     height: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
     width: 60%;
     margin-bottom: 30px;
     padding: 0;
+    margin-left: 40px;
+    font-size: x-large;
  }
 .maps{  
-     width: 90%;
+     width: 40%;
+     margin-right: auto;
+     margin-left: auto;
   }
 .slogan{
     width: 90%;
     padding-top: 0;
-padding-bottom: 80px;
+padding-bottom: 40px;
 line-height: 20px;
+font-size: large;
 }
 
-.nav{
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 0;
-    padding: 0;
-    padding: 0;
-}
 button{
-    width: 65px;
+ width: 65px;
 font-size:10px;
+ }
 
-
+.log img{
+     
+   height: 5vw;
+   width: 15vw;
 
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width:auto;
+    margin:30px;
+}
+
+
+
+
+
 
 
 
