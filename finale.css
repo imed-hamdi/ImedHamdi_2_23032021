@@ -1,101 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 body{
-    
-    margin-top: 30px;
-    font-family: "Raleway";
-}
-hr{
-    visibility: hidden;
+margin-top: 30px;
+font-family: "Raleway";
 }
 .nav{
-    display: grid;
-    grid-template-columns: 40% 20% 20% 20%;
-    margin-right: 30px;
-    margin-left: 30px;
-
+display: grid;
+grid-template-columns: 40% 20% 20% 20%;
+margin-right: 30px;
+margin-left: 30px;
 }
 #hebergement{
-    grid-column: 2/3;
-      margin-left:auto ;
-    margin-right: 0;
-    
+grid-column: 2/3;
+margin-left:auto ;
+margin-right: 0;   
 }
 #activite{
-    grid-column: 3/4;
-      margin-left:auto ;
-    margin-right: 0;
+grid-column: 3/4;
+margin-left:auto ;
+margin-right: 0;
 }
 .nav :hover{
-    color:#0065FC;
-    text-decoration: overline;
-   
+color:#0065FC;
+text-decoration: overline;  
 }
 #inscrire{
-    color: #0065FC;
-    grid-column: 4/5;
-    margin-left:auto ;
-    margin-right: 0;
- 
-  
+color: #0065FC;
+grid-column: 4/5;
+margin-left:auto ;
+margin-right: 0; 
 }
-
-
-
 .slogan{
-    margin-top: 40px;
- line-height: 5px;
- height: 80px;
- margin-left: 30px;
- margin-right: 30px;
-
+margin-top: 40px;
+line-height: 5px;
+height: 80px;
+margin-left: 30px;
+margin-right: 30px;
 }
 .log img{
-    width: 5vw;
- 
-   
+width: 5vw;
 }
-
-
-
 .maps{
-
- width: 440px;
- height: 50px;
- display: flex;
+width: 440px;
+height: 50px;
+display: flex;
 justify-content: center;
 margin-bottom: 20px;
 margin-left: 30px;
 margin-right: 30px;
- }
-
-
- .gps{
-    background-color: #F2F2F2;
-    width: 30px;
-    height: 40px;
-    padding-top: 12px;
-   padding-left: 20px;
-    border-radius: 15px 0  0 15px;
+}
+.gps{
+background-color: #F2F2F2;
+width: 30px;
+height: 40px;
+padding-top: 12px;
+padding-left: 20px;
+border-radius: 15px 0  0 15px;
 }
 .loupe{
-    visibility: hidden;
+visibility: hidden;
 }
-
-
-
 .maps input{
-    width: 230px;
-    height: 47px;
-    padding-left: 20px;
-    font-weight:bold;
-    font-size: 16px;
-    font-family: "Raleway";
-    border: 1px solid #F2F2F2;
+width: 230px;
+height: 47px;
+padding-left: 20px;
+font-weight:bold;
+font-size: 16px;
+font-family: "Raleway";
+border: 1px solid #F2F2F2;
 }
-
-
-
-
 button{
 background-color: #0065FC;
 color: white;
@@ -107,13 +79,6 @@ border-radius:0 15px 15px 0;
 border: transparent;
 font-family: "Raleway";
 }
-
-
-
-
-
-
-
 .filtres i{
 margin-right: 15px;
 background-color: #DEEBFF;
@@ -124,124 +89,104 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-
 .filtres{
-    display: flex;
-    width: 60%;
-    height: 90px;
-    text-align: center;
-    justify-content: space-between;
-    font-weight: bolder;
-    margin-left: 30px;
-    margin-right: 30px;
-    align-items: center;
-    margin-bottom: 10px;
-    transform: scale(1);
-    
+display: flex;
+width: 60%;
+height: 90px;
+text-align: center;
+justify-content: space-between;
+font-weight: bolder;
+margin-left: 30px;
+margin-right: 30px;
+align-items: center;
+margin-bottom: 10px;
+transform: scale(1);
 }
 .eco{
-    display: flex;
-    height: 45px;
-    justify-content: center;
-    align-items: center;
-    border:1px solid #bdbfc4;
-    border-radius:31px 31px 31px 31px;
-    padding:  0 10px  0  0 ;
-   
+display: flex;
+height: 45px;
+justify-content: center;
+align-items: center;
+border:1px solid #bdbfc4;
+border-radius:31px 31px 31px 31px;
+padding:  0 10px  0  0 ;
 }
 .filtres :hover{
-    color: brown;
-    transform: scale(1.1);
+color: brown;
+transform: scale(1.1);
 }
-
 .familial{
-    display: flex;
-    height: 45px;
-    justify-content: center;
-    align-items: center;
-    border:1px solid #bdbfc4;
-    border-radius:30px 30px 30px 30px;
-    padding:  0 10px  0  0 ;
-   
+display: flex;
+height: 45px;
+justify-content: center;
+align-items: center;
+border:1px solid #bdbfc4;
+border-radius:30px 30px 30px 30px;
+padding:  0 10px  0  0 ;   
 }
-
 .romantique{
-    display: flex;
-    height: 45px;
-    justify-content: center;
-    align-items: center;
-    border:1px solid #bdbfc4;
-    border-radius:30px 30px 30px 30px;
-    padding:  0 10px  0  0 ;
-     
+display: flex;
+height: 45px;
+justify-content: center;
+align-items: center;
+border:1px solid #bdbfc4;
+border-radius:30px 30px 30px 30px;
+padding:  0 10px  0  0 ;
 }
-
 .animaux{
-    display: flex;
-    height: 45px;
-    justify-content: center;
-    align-items: center;
-    border:1px solid #bdbfc4;
-    border-radius:30px 30px 30px 30px;
-    padding:  0 10px  0  0 ;
-    
+display: flex;
+height: 45px;
+justify-content: center;
+align-items: center;
+border:1px solid #bdbfc4;
+border-radius:30px 30px 30px 30px;
+padding:  0 10px  0  0 ;
 }
-
-
-
 .info{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px; 
-    width: 50%;
-    margin-left: 30px;
-    margin-right: 30px;
+display: flex;
+align-items: center;
+margin-bottom: 20px; 
+width: 50%;
+margin-left: 30px;
+margin-right: 30px;
 }
 .info i{
-    font-size:small ;
-    border: 1px solid gray;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+font-size:small ;
+border: 1px solid gray;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .info p{
 margin-left: 10px;
 }
-
-
-
 i{
-    color: #0065FC;
+color: #0065FC;
 }
 .gray{
-    color: rgb(228, 226, 226);
+color: rgb(228, 226, 226);
 }
-
-
-
-
 #hotel-1{
-    width: 245px;
-    height: 210px;
-    border:3px solid white;
-    display: block;
-    border-radius: 20px;
-    background-color: white;
-    position: relative;
+width: 245px;
+height: 210px;
+border:3px solid white;
+display: block;
+border-radius: 20px;
+background-color: white;
+position: relative;
 }
 #hotel-1 img {
-    border-radius: 20px 20px 0 0 ;
-    width:245px;
-    height:120px;
-    object-fit:cover;
+border-radius: 20px 20px 0 0 ;
+width:245px;
+height:120px;
+object-fit:cover;
 }
 a{
-  text-decoration: none;
-   color: black;
+text-decoration: none;
+color: black;
 }
 .overlay1{
 position: absolute;
@@ -254,210 +199,175 @@ line-height:3px;
 border-radius:0 0 20px 20px;
 padding-left:15px;
 box-shadow:5px 5px 5px #F2F2F2;
-
 }
-
-
 #hotel-2{
-    width: 245px;
-    height: 210px;
-    border:3px solid white;
-    display: block;
-    border-radius: 20px;
-    background-color: white;
-   
-    position: relative;
+width: 245px;
+height: 210px;
+border:3px solid white;
+display: block;
+border-radius: 20px;
+background-color: white;
+position: relative;
 }
 #hotel-2 img {
-    border-radius: 20px 20px 0 0 ;
-    width:245px;
-    height:120px;
-    object-fit:cover;
+border-radius: 20px 20px 0 0 ;
+width:245px;
+height:120px;
+object-fit:cover;
 }
-
 .overlay2{
-    position: absolute;
-    bottom: 0;        
-    background-color: white;		
-    width:230px;				
-    color: black;
-    height: 90px;
-    line-height:3px;
-    border-radius:0 0 20px 20px;
-    padding-left:15px;
-    box-shadow:5px 5px 5px #F2F2F2;
-
+position: absolute;
+bottom: 0;        
+background-color: white;		
+width:230px;				
+color: black;
+height: 90px;
+line-height:3px;
+border-radius:0 0 20px 20px;
+padding-left:15px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
-
-
-
-
 #hotel-3{
-    width: 245px;
-    height: 210px;
-    border:3px solid white;
-    display: block;
-    border-radius: 20px;
-    background-color: white;
-    position: relative;
+width: 245px;
+height: 210px;
+border:3px solid white;
+display: block;
+border-radius: 20px;
+background-color: white;
+position: relative;
 }
 #hotel-3 img {
-    border-radius: 20px 20px 0 0 ;
-    width:245px;
-    height:120px;
-    object-fit:cover;
+border-radius: 20px 20px 0 0 ;
+width:245px;
+height:120px;
+object-fit:cover;
 }
-
 .overlay3{
-    position: absolute;
-    bottom: 0;        
-    background-color:white;		
-    width:230px;				
-    color: black;
-    height: 90px;
-    line-height:3px;
-    border-radius:0 0 20px 20px;
-    padding-left:15px;
-    box-shadow:5px 5px 5px #F2F2F2;
+position: absolute;
+bottom: 0;        
+background-color:white;		
+width:230px;				
+color: black;
+height: 90px;
+line-height:3px;
+border-radius:0 0 20px 20px;
+padding-left:15px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
-
-
-
-
 #hotel-4{
-    width: 245px;
-    height: 210px;
-    border:3px solid white;
-    display: block;
-    border-radius: 20px;
-    background-color: white;
-   
-    position: relative;
+width: 245px;
+height: 210px;
+border:3px solid white;
+display: block;
+border-radius: 20px;
+background-color: white;
+position: relative;
 }
 #hotel-4 img {
-    border-radius: 20px 20px 0 0 ;
-    width:245px;
-    height:120px;
-    object-fit:cover;
+border-radius: 20px 20px 0 0 ;
+width:245px;
+height:120px;
+object-fit:cover;
 }
-
 .overlay4{
-    position: absolute;
-    bottom: 0;        
-    background-color: white;		
-    width:230px;				
-    color: black;
-    height: 90px;
-    line-height:3px;
-    border-radius:0 0 20px 20px;
-    padding-left:15px;
-    box-shadow:5px 5px 5px #F2F2F2;
-
+position: absolute;
+bottom: 0;        
+background-color: white;		
+width:230px;				
+color: black;
+height: 90px;
+line-height:3px;
+border-radius:0 0 20px 20px;
+padding-left:15px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
-
-
-
-
 #hotel-5{
-    width: 245px;
-    height: 210px;
-    border:3px solid white;
-    display: block;
-    border-radius: 20px;
-    background-color: white;
-   
-    position: relative;
+width: 245px;
+height: 210px;
+border:3px solid white;
+display: block;
+border-radius: 20px;
+background-color: white;
+position: relative;
 }
 #hotel-5 img {
-    border-radius: 20px 20px 0 0 ;
-    width:245px;
-    height:120px;
-    object-fit:cover;
+border-radius: 20px 20px 0 0 ;
+width:245px;
+height:120px;
+object-fit:cover;
 }
-
 .overlay5{
-    position: absolute;
-    bottom: 0;        
-    background-color:white;		
-    width:230px;				
-    color: black;
-    height: 90px;
-    line-height:3px;
-    border-radius:0 0 20px 20px;
-    padding-left:15px;
-    box-shadow:5px 5px 5px #F2F2F2;
+position: absolute;
+bottom: 0;        
+background-color:white;		
+width:230px;				
+color: black;
+height: 90px;
+line-height:3px;
+border-radius:0 0 20px 20px;
+padding-left:15px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
-
-
-
 #hotel-6{
-    width: 245px;
-    height: 210px;
-    border:3px solid white;
-    display: block;
-    border-radius: 20px;
-    background-color: white;
-   
-    position: relative;
+width: 245px;
+height: 210px;
+border:3px solid white;
+display: block;
+border-radius: 20px;
+background-color: white;
+position: relative;
 }
 #hotel-6 img {
-    border-radius: 20px 20px 0 0 ;
-    width:245px;
-    height:120px;
-    object-fit:cover;
+border-radius: 20px 20px 0 0 ;
+width:245px;
+height:120px;
+object-fit:cover;
 }
-
 .overlay6{
-    position: absolute;
-    bottom: 0;        
-    background-color:white;		
-    width:230px;				
-    color: black;
-    height: 90px;
-    line-height:3px;
-    border-radius:0 0 20px 20px;
-    padding-left:15px;
-    box-shadow:5px 5px 5px #F2F2F2;
-
+position: absolute;
+bottom: 0;        
+background-color:white;		
+width:230px;				
+color: black;
+height: 90px;
+line-height:3px;
+border-radius:0 0 20px 20px;
+padding-left:15px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
 .col1{
-    
-    display: flex;
-    justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
 .col2{
-    
-    display: flex;
-    justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
 .hebergement{ 
-    font-family: "Raleway";
-  
-    width: 100%;
-    height: 100%;
-    background-color: #F2F2F2;
-    border-radius: 20px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    padding-right: 30px;
-    padding-left: 30px;
-    background-color: #F2F2F2 ;
-  
+font-family: "Raleway";
+width: 100%;
+height: 100%;
+background-color: #F2F2F2;
+border-radius: 20px; 
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-right: 30px;
+padding-left: 30px;
+background-color: #F2F2F2 ;
 }
 #milieu{
-    display: flex;
-    justify-content:space-between;
-    height: 100%;
-    margin-bottom: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
+display: flex;
+justify-content:space-between;
+height: 100%;
+margin-bottom: 50px;
+margin-left: 30px;
+margin-right: 30px;
 }
 .hebergement h3{
-  margin-top: 40px;
-    width: 50%;
-    margin-left: 20px;
+margin-top: 40px;
+width: 50%;
+margin-left: 20px;
 }
 #suite{
 width: 50%;
@@ -466,305 +376,272 @@ width: 50%;
  margin-left: 20px;
  margin-bottom: 30px;
 }
-
-
-
-
 .populaire{
-    width: 350px;
-    height: 620px;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+width: 350px;
+height: 620px;
+background-color: #F2F2F2;
+border-radius: 20px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
 }
 #title{
-    display: flex;
-    justify-content: space-between;
-    width: 340px;
-    align-items: center;
-    height: 40px;
-  padding-top: 0;
+display: flex;
+justify-content: space-between;
+width: 340px;
+align-items: center;
+height: 40px;
+padding-top: 0;
 }
 #title i{
-    font-weight: bold;
-    font-size: larger;
-    color: black;
+font-weight: bold;
+font-size: larger;
+color: black;
 }
-
 #hotel-pop1{
-    width: 340px;
-    height: 140px;
-    border:3px solid white;
-    display: flex;
-    border-radius: 20px;
-    background-color: white;
-    position: relative; 
+width: 340px;
+height: 140px;
+border:3px solid white;
+display: flex;
+border-radius: 20px;
+background-color: white;
+position: relative; 
 }
 .overlay-pop1{
-    position: absolute;
-    right: 0; 
-    height: 135px;       
-    background-color:white;		
-    width: 55%;				
-    color: black;
-    border-radius: 0 20px 20px 0;
-    border: 3px solid white;
-    padding-left: 20px;
+position: absolute;
+right: 0; 
+height: 135px;       
+background-color:white;		
+width: 55%;				
+color: black;
+border-radius: 0 20px 20px 0;
+border: 3px solid white;
+padding-left: 20px;
 }
 #hotel-pop1 img{  
-   border-radius: 20px 0 0 20px ;
-   width:40%;
-   height:140px;
-   object-fit:cover; 
+border-radius: 20px 0 0 20px ;width:40%;
+height:140px;
+object-fit:cover; 
 }
-
 #hotel-pop2{
-    width: 340px;
-    height: 140px;
-    border:3px solid white;
-    display: flex;
-    border-radius: 20px;
-    background-color: white;
-    position: relative; 
+width: 340px;
+height: 140px;
+border:3px solid white;
+display: flex;
+border-radius: 20px;
+background-color: white;
+position: relative; 
 }
 .overlay-pop2{
-    position: absolute;
-    right: 0; 
-    height: 135px;       
-    background-color:white;		
-    width: 55%;				
-    color: black;
-    border-radius: 0 20px 20px 0;
-    border: 3px solid white;
-    padding-left: 20px;
+position: absolute;
+right: 0; 
+height: 135px;       
+background-color:white;		
+width: 55%;				
+color: black;
+border-radius: 0 20px 20px 0;
+border: 3px solid white;
+padding-left: 20px;
 }
 #hotel-pop2 img{ 
-   border-radius: 20px 0 0 20px ;
-   width:40%;
-   height:140px;
-   object-fit:cover; 
+border-radius: 20px 0 0 20px ;
+width:40%;
+height:140px;
+object-fit:cover; 
 }
-
 #hotel-pop3{
-    width: 340px;
-    height: 140px;
-    border:3px solid white;
-    display: flex;
-    border-radius: 20px;
-    background-color: white;
-    position: relative; 
+width: 340px;
+height: 140px;
+border:3px solid white;
+display: flex;
+border-radius: 20px;
+background-color: white;
+position: relative; 
 }
 .overlay-pop3{
-    position: absolute;
-    right: 0; 
-    height: 135px;       
-    background-color:white;		
-    width: 55%;				
-    color: black;
-    border-radius: 0 20px 20px 0;
-    border: 3px solid white;
-    padding-left: 20px;
+position: absolute;
+right: 0; 
+height: 135px;       
+background-color:white;		
+width: 55%;				
+color: black;
+border-radius: 0 20px 20px 0;
+border: 3px solid white;
+padding-left: 20px;
 }
 #hotel-pop3 img{
-   border-radius: 20px 0 0 20px ;
-   width:40%;
-   height:140px;
-   object-fit:cover; 
+border-radius: 20px 0 0 20px ;
+width:40%;
+height:140px;
+object-fit:cover; 
 }
-
-
-
-
-
-
-
 .activity{
-    margin-left: 30px;
-    margin-right: 30px;
+margin-left: 30px;
+margin-right: 30px;
 }
-
-
-
-
-
 #vieux-port{
-     width: 23%;
-    height: 440px;
-    position: relative;
+width: 23%;
+height: 440px;
+position: relative;
 }
 #vieux-port img{
-    object-fit:cover;
-    width: 300px;
-    height: 400px; 
-    border-radius: 20px 20px 20px 20px;
+object-fit:cover;
+width: 300px;
+height: 400px; 
+border-radius: 20px 20px 20px 20px;
 }
 .overlay-vieux-port{
-    position: absolute;
-    bottom: 0;         
-    background-color:white;		
-    width: 280px;				
-    color: black;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-radius: 0 0 20px 20px;
-    padding-left: 20px;
-    box-shadow:5px 5px 5px #F2F2F2;
+position: absolute;
+bottom: 0;         
+background-color:white;		
+width: 280px;				
+color: black;
+height: 50px;
+display: flex;
+align-items: center;
+border-radius: 0 0 20px 20px;
+padding-left: 20px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
 .container-actv{
-    display: flex;
-    justify-content: space-between;
+display: flex;
+justify-content: space-between;
 }
-.cotainer-actv2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width:23% ;
-    height: 440px;
+.container-actv2{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width:23% ;
+height: 440px;
 }
-.cotainer-actv3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 23%;
-    height: 440px;
+.container-actv3{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 23%;
+height: 440px;
 }
 #Parc-National-des-calanques{
-    width: 23%;
-   height: 440px;
-   position: relative;
+width: 23%;
+height: 440px;
+position: relative;
 }
 #Parc-National-des-calanques img{
-    object-fit:cover;
-    width: 300px;
-    height: 400px; 
-    border-radius: 20px 20px 20px 20px;
+object-fit:cover;
+width: 300px;
+height: 400px; 
+border-radius: 20px 20px 20px 20px;
 }
 .overlay-parc-calanques{
-   position: absolute;
-   bottom: 0;         
-   background-color:white;		
-   width: 280px;				
-   color: black;
-   height: 50px;
-   display: flex;
-   align-items: center;
-   border-radius: 0 0 20px 20px;
-   padding-left: 20px;
-   box-shadow:5px 5px 5px #F2F2F2;
+position: absolute;
+bottom: 0;         
+background-color:white;		
+width: 280px;				
+color: black;
+height: 50px;
+display: flex;
+align-items: center;
+border-radius: 0 0 20px 20px;
+padding-left: 20px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
 #fort-de-pomegues{
-    width: 100%;
-    position: relative;
+width: 100%;
+position: relative;
 }
-
 #fort-de-pomegues img{
-    object-fit:cover;
-    width: 300px;
-    height: 250px; 
-    border-radius: 20px 20px 20px 20px;
+object-fit:cover;
+width: 300px;
+height: 250px; 
+border-radius: 20px 20px 20px 20px;
 }
 .overlay-fortdepomegues{
-    position: absolute;
-    bottom: 0;         
-    background-color:white;		
-    width: 280px;				
-    color: black;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-radius: 0 0 20px 20px;
-    padding-left: 20px;
-    box-shadow:5px 5px 5px #F2F2F2;
+position: absolute;
+bottom: 0;         
+background-color:white;		
+width: 280px;				
+color: black;
+height: 50px;
+display: flex;
+align-items: center;
+border-radius: 0 0 20px 20px;
+padding-left: 20px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
 #iles-du-frioul{
-    width: 100%;
-    position: relative;
+width: 100%;
+position: relative;
 }
 #iles-du-frioul img{
-    object-fit:cover;
-    width: 300px;
-    height: 140px; 
-    border-radius: 20px 20px 20px 20px;
+object-fit:cover;
+width: 300px;
+height: 140px; 
+border-radius: 20px 20px 20px 20px;
 }
 .overlay-frioul{
-    position: absolute;
-    bottom: 0;         
-    background-color:white;		
-    width: 280px;				
-    color: black;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-radius: 0 0 20px 20px;
-    padding-left: 20px;
-    box-shadow:5px 5px 5px #F2F2F2;
+position: absolute;
+bottom: 0;         
+background-color:white;		
+width: 280px;				
+color: black;
+height: 50px;
+display: flex;
+align-items: center;
+border-radius: 0 0 20px 20px;
+padding-left: 20px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
 #notre-dame-de-la-garde{
-    width: 100%;
-    position: relative;
+width: 100%;
+position: relative;
 }
 #notre-dame-de-la-garde img{
-    object-fit:cover;
-    width: 300px;
-    height: 200px; 
-    border-radius: 20px 20px 20px 20px;
+object-fit:cover;
+width: 300px;
+height: 200px; 
+border-radius: 20px 20px 20px 20px;
 }
 .overlay-notre-dame-de-la-garde{
-    position: absolute;
-    bottom: 0;         
-    background-color:white;		
-    width: 280px;				
-    color: black;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-radius: 0 0 20px 20px;
-    padding-left: 20px;
-    box-shadow:5px 5px 5px #F2F2F2;
+position: absolute;
+bottom: 0;         
+background-color:white;		
+width: 280px;				
+color: black;
+height: 50px;
+display: flex;
+align-items: center;
+border-radius: 0 0 20px 20px;
+padding-left: 20px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
 #parc-longchamp{
-    width: 100%;
-    position: relative;
+width: 100%;
+position: relative;
 }
-
 #parc-longchamp img{
-    object-fit:cover;
-    width: 300px;
-    height: 200px; 
-    border-radius: 20px 20px 20px 20px;
+object-fit:cover;
+width: 300px;
+height: 200px; 
+border-radius: 20px 20px 20px 20px;
 }
 .overlay-parc-longchamps{
-    position: absolute;
-    bottom: 0;         
-    background-color:white;		
-    width: 280px;				
-    color: black;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-radius: 0 0 20px 20px;
-    padding-left: 20px;
-    box-shadow:5px 5px 5px #F2F2F2;
+position: absolute;
+bottom: 0;         
+background-color:white;		
+width: 280px;				
+color: black;
+height: 50px;
+display: flex;
+align-items: center;
+border-radius: 0 0 20px 20px;
+padding-left: 20px;
+box-shadow:5px 5px 5px #F2F2F2;
 }
 
-
-
-
-
-
-
-
-
 /*footer*/
-
-
-
 
 footer{
     font-family: 'Raleway', sans-serif;
@@ -798,9 +675,7 @@ footer{
     color: black;
     font-size: large;
     padding-top: 5px;
-    margin-left: 220px;
-    
-    
+    margin-left: 220px; 
 }
 .nos-hebergement h3{
     padding-top: 30px;
@@ -818,7 +693,7 @@ footer{
     margin-left: 220px;
 }
 
-@media all and (max-width: 980px) {
+@media all and (max-width: 1100px) {
 
 body{
     width: 100%;
@@ -871,29 +746,23 @@ footer{
   padding: 0;
  
 }
-.cotainer-actv2{
+.container-actv2{
     width: 100%;
     display:flex;
     flex-direction: column;
     height: auto;
     padding: 0;
-
 }
-.cotainer-actv3{
+.container-actv3{
     width: 100%;
     height: auto;
     padding: 0;
 }
-
-
-
-
 #vieux-port{
      width: 100%;
     height: auto;
     position: relative;
 }
-
 #vieux-port img{
     height: 30vw;
     width:100%;
@@ -933,17 +802,15 @@ footer{
 #notre-dame-de-la-garde img{
     margin-top: 20px;
     width: 100%;
-     height: 30vw;
-
+    height: 30vw;
 }
 .overlay-notre-dame-de-la-garde{
-    width: 98%;
-    
+    width: 98%;  
 }
 #parc-longchamp img{
     margin-top: 20px;
     width: 100%;
-     height: 30vw;
+    height: 30vw;
 }
 .overlay-parc-longchamps{
     width: 98%;
@@ -952,8 +819,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin: 0;
-   
+    margin: 0;  
 }
 .col2{
     display: flex;
@@ -966,8 +832,7 @@ footer{
     display: flex;
     flex-direction: column-reverse;
     padding: 0;
-    margin: auto;
-   
+    margin: auto;  
 }
 .hebergement{
     width: 100%;
@@ -976,10 +841,7 @@ footer{
     background-color:transparent;
     padding: 0;
     display: block;
-    flex-direction: column;
-    
-    
-   
+    flex-direction: column;  
 }
 .populaire{
     width: 100%;
@@ -991,13 +853,11 @@ footer{
     width: 100%;
     padding:0;
     font-size: x-large;
-
 }
 #suite{
     padding-top: 25px;
     margin-left: 0;
 }
-
 #hotel-1{
 position: relative;
 margin-bottom: 20vw;
@@ -1005,7 +865,7 @@ width: 100%;
 }
 #hotel-1 img{
     width:100%;
-     height: 30vw;
+    height: 30vw;
 }
 .overlay1{
     width: 98.5%;
@@ -1020,7 +880,7 @@ width: 100%;
 }
 #hotel-2 img{
     width:100%;
-     height: 30vw;
+    height: 30vw;
 }
 .overlay2{
    width: 98.5%;
@@ -1065,7 +925,7 @@ width: 100%;
 }
 #hotel-5 img{
     width: 100%;
-     height: 30vw;
+    height: 30vw;
 }
 .overlay5{
  width: 98.5%;
@@ -1088,18 +948,13 @@ width: 100%;
     bottom: -15vw;
     background-color: white;
 }
-
-
-
 #hotel-pop1{
     width: 90%;
     padding:0;
     margin-top: 1vw;
   margin-left: auto;
   margin-right: auto;
-      margin-bottom: 2vw;
- 
-
+    margin-bottom: 2vw;
 }
 #hotel-pop1 img{
     height: 100%;
@@ -1110,7 +965,7 @@ width: 100%;
     margin-top: 1vw;
   margin-left: auto;
   margin-right: auto;
-      margin-bottom: 2vw;
+ margin-bottom: 2vw;
 
 }
 #hotel-pop2 img{
@@ -1122,8 +977,7 @@ width: 100%;
     margin-top: 1vw;
   margin-left: auto;
   margin-right: auto;
-      margin-bottom: 4vw;
-
+    margin-bottom: 4vw;
 }
 #hotel-pop3 img{
     height: 100%;
@@ -1135,24 +989,16 @@ width: 100%;
     font-weight: bolder;
     font-size: x-large;
 }
-
-
 .filtres{
     display: flex;
     flex-wrap:wrap;
     height: max-content;
-    width: 60%;
-   
- 
-   
+    width: 60%;  
 }
 .filtres h4{
-
     margin-left: 30px;
     width: 100%;
-    margin-right: 100%;
-
-  
+    margin-right: 100%; 
 }
 .eco{
   margin-bottom: 10px;
@@ -1192,10 +1038,8 @@ font-size:10px;
  }
 
 .log img{
-     
-   height: 5vw;
-   width: 15vw;
-
+height: 5vw;
+width: 15vw;
 }
 .nav{
     display: grid;
@@ -1219,7 +1063,6 @@ grid-row: 2/3;
  font-weight: bolder;
 font-size:xx-large;
 
-
 }
 #hebergement{
 grid-column: 1/2;
@@ -1230,19 +1073,14 @@ grid-row: 2/3;
  margin-bottom:0;
 }
 .log{
-    grid-column: 1/2;
-    grid-row: 1/2;
+grid-column: 1/2;
+grid-row: 1/2;
     
 }
 .log img {
     width: 30vw;
     height: 10vw;
 }
-
-
-
-
-
 
 
 }
